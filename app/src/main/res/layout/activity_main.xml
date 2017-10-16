@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/columbia"
+    tools:context="com.example.abbi.myapplication.MainActivity">
+
+    <Button
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/button"
+        android:textColor="@android:color/white"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/go"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp" />
+
+
+</RelativeLayout>
